@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0;
+      }
+      .document {
+        background-color: #eee;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+      }
+      .page {
+        font-family: Courier, monospace;
+        font-size: 12pt;
+        padding: 2.5cm 2.5cm 2.5cm 3.9cm;
+        outline: none;
+        width: 210mm;
+        height: 297mm;
+        box-sizing: border-box;
+        background-color: white;
+        box-shadow: 0 0 2px 1px #ccc;
+      }
+      .action {
+        outline: none;
+      }
+      .character {
+        outline: none;
+        margin-left: 5.4cm;
+        text-transform: uppercase;
+      }
+      .dialog {
+        outline: none;
+        margin-left: 3.4cm;
+        margin-right: 3.4cm;
+      }
+      .parentheses {
+        outline: none;
+        margin-left: 4.4cm;
+        margin-right: 4.4cm;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <div class="document">
+        <div class="page" contenteditable="true" autofocus="true">
+          <div class="action">INT. ROOM - DAY</div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
