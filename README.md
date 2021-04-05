@@ -1,4 +1,7 @@
 # Scriptwriter
 
 A screenplay writing app.
-![https://i.imgur.com/6gsPBGK.png](screenshot)
+
+[Demo](https://drzhbe.github.io/scriptwriter/)
+
+![screenshot](https://i.imgur.com/6gsPBGK.png)
